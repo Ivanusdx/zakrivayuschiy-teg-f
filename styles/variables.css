@@ -1,1 +1,55 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --base-font-family: "Inter", sans-seri;
+  --accent-font-family: "PressStart2P", sans-seri;
+  --font-weight-PressStart2P-Regular: 400;
+  --font-weight-Inter-Regular: 410;
+  --font-weight-Inter-black: 715;
+  --stripes-vertical: repeating-linear-gradient(
+    to right,
+    #d3d3d3 0,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  );
+  --stripes-horizontal: repeating-linear-gradient(
+    to bottom,
+    #d3d3d3 0,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  );
+  --density-gradient: linear-gradient(
+    to bottom,
+    #e7e7e7 0%,
+    #e7e7e7 0.01%,
+    #1a1a1a 100%
+  );
+  --accent-bg-page:
+    var(--stripes-vertical), var(--stripes-horizontal), var(--density-gradient);
+
+  --accent-block-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --accent-block-color: #fff;
+  --accent-logo-title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --accent-logo-text-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --accent-text-chadow:
+    -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  --accent-block-border: 2px solid #000;
+  --accent-padding-header: clamp(60px, 10vh, 130px) clamp(30px, 5vw, 122px);
+  --accent-focus-shadow: 2px 2px 0 #000;
+  --accent-hover-bg_color: #000;
+
+  --contour-color: #000;
+  --main-body-color: red;
+  --core-color: #fff;
+  --sparks-color: red;
+
+  --core-color-hover: #000;
+  --main-body-color-hover: #000;
+
+  --core-color-active: red;
+  --main-body-color-active: red;
+
+  --contour-color-click: red;
+  --core-color-click: red;
+  --main-body-color-click: red;
+}
