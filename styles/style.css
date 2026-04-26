@@ -18,7 +18,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--base-font-family);
-  font-weight: var(--font-weight-Inter-Regular);
+  font-variation-settings: 'wght' 400;
   background-attachment: fixed;
   background-image: var(--accent-bg-page);
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@
 
 .card-title {
   font-size: 18px;
-  font-weight: var(--font-weight-Inter-black);
+  font-variation-settings: 'wght' 785;
   padding: 4px 10px;
 }
 
