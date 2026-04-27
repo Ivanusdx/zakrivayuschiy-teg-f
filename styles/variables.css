@@ -1,9 +1,9 @@
 :root {
-  --base-font-family: "Inter", sans-seri;
-  --accent-font-family: "PressStart2P", sans-seri;
-  --font-weight-PressStart2P-Regular: 400;
-  --font-weight-Inter-Regular: 410;
-  --font-weight-Inter-black: 715;
+  --base-font-family: "Inter", sans-serif;
+  --accent-font-family: "PressStart2P", sans-serif;
+  --font-weight-text-element: 400;
+  --font-weight-base: 410;
+  --font-weight-black: 715;
   --stripes-vertical: repeating-linear-gradient(
     to right,
     #d3d3d3 0,
