@@ -30,6 +30,8 @@
   display: flex;
   flex-direction: column;
   padding: var(--accent-padding-header);
+  margin-block-end: 10px;
+  line-height: 1.5;
 }
 
 .header {
@@ -97,8 +99,8 @@
 @supports (text-stroke: 1px currentColor) or
   (-webkit-text-stroke: 1px currentColor) {
   .card-image-element {
-    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.3);
-    text-stroke: 0.5px rgba(0, 0, 0, 0.3);
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
+    text-stroke: 0.5px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -154,6 +156,9 @@
 }
 
 .card__icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -361,7 +366,7 @@ dialog::backdrop {
 @media (width <= 375px) {
   .header {
     min-block-size: 327px;
-    inline-size: 375px;
+    inline-size: 375;
     margin-block-end: 101px;
   }
 
@@ -369,13 +374,14 @@ dialog::backdrop {
     margin-inline-start: 8px;
   }
 
-  .header-title-logo {
-    margin-inline-start: 7px;
+  .header-block-logo {
+    margin-block-end: 10px;
+    line-height: 1.2;
   }
 
   .header-text-logo {
     padding-block-start: 7.5px;
-    margin-inline-start: 9px;
+    margin-inline-start: 1px;
   }
 
   .card-sprint-content {

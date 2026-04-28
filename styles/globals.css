@@ -11,7 +11,7 @@
 body {
   margin: 0;
   font-family: var(--base-font-family);
-  font-weight: var(--font-weight-Inter-Regular);
+  font-weight: var(--font-weight-base);
 }
 
 h1,
